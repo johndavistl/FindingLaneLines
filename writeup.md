@@ -18,8 +18,6 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test_images/test_images_output/out1.jpg
-[image2]: ./test_images/test_images_output/out2.jpg
 [image3]: ./test_images/solidWhiteCurveout.jpg
 ---
 
@@ -53,8 +51,8 @@ In second section, <br>
   
   This function is created by some help from a blog describing use of ```np.polyfit()``` in Linear Regression<br>
   Input : points returned by Hough function . The preprocessing steps involved:
-  
-      1. The points from Hough Transformation is selected according to **slope** (slope_threshold is used to discard lines).
+      1. The points from Hough Transformation is selected according to **slope** 
+         (slope_threshold is used to discard lines).
       2. The points (belongs to line) are then classified to **left lane line points** and **right lane line points**
       3. **Linear Regression** is used to find parameters of line fitting the lane lines ```np.ployfit()```
       4. The parameters then found is used to give lower and upper end points of lane lines
