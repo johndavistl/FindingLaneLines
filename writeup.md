@@ -51,9 +51,9 @@ In second section, <br>
   
   This function is created by some help from a blog describing use of ```np.polyfit()``` in Linear Regression<br>
   Input : points returned by Hough function . The preprocessing steps involved:
-      * The points from Hough Transformation is selected according to **slope** 
+      *The points from Hough Transformation is selected according to **slope** 
          (slope_threshold is used to discard lines).
-      * The points (belongs to line) are then classified to **left lane line points** and **right lane line points**
+      *The points (belongs to line) are then classified to **left lane line points** and **right lane line points**
       * **Linear Regression** is used to find parameters of line fitting the lane lines ```np.ployfit()```
       * The parameters then found is used to give lower and upper end points of lane lines
       * The lines are drawn using ```cv2.line()```<br>
