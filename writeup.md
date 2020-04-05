@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-I really enjoyed the project. The classes were upto providing a clear understanding of the problem. I also got useful help from **Knowledge Section**, an answer by mentor ```Mr. Mate B ```helped compeleting the project.
+I really enjoyed the project. The classes were upto providing a clear understanding of the problem. I also got useful help from **Knowledge Section**; an answer by mentor ```Mr. Mate B ```helped in compeleting the project.
 
 ### 1. Pipeline
 
@@ -51,12 +51,12 @@ In second section, <br>
   
   This function is created by some help from a blog describing use of ```np.polyfit()``` in Linear Regression<br>
   Input : points returned by Hough function . The preprocessing steps involved:
-      1. The points from Hough Transformation is selected according to **slope** 
+      * The points from Hough Transformation is selected according to **slope** 
          (slope_threshold is used to discard lines).
-      2. The points (belongs to line) are then classified to **left lane line points** and **right lane line points**
-      3. **Linear Regression** is used to find parameters of line fitting the lane lines ```np.ployfit()```
-      4. The parameters then found is used to give lower and upper end points of lane lines
-      5. The lines are drawn using ```cv2.line()```<br>
+      * The points (belongs to line) are then classified to **left lane line points** and **right lane line points**
+      * **Linear Regression** is used to find parameters of line fitting the lane lines ```np.ployfit()```
+      * The parameters then found is used to give lower and upper end points of lane lines
+      * The lines are drawn using ```cv2.line()```<br>
     The left and right lane lines are drawn seperately<br>
     <br>
     Vectors are used to create the line for lane lines but their performance was poorer in videos.<br>
